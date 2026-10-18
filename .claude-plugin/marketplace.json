@@ -1,0 +1,25 @@
+{
+  "name": "davesmods",
+  "description": "Claude Code function-hooks mods by davethedev3",
+  "owner": {
+    "name": "davethedev3"
+  },
+  "plugins": [
+    {
+      "name": "brief-template",
+      "source": {
+        "source": "github",
+        "repo": "davethedev3/brief-template"
+      },
+      "description": "Expands an Agent prompt that names a markdown brief template and {{variable}} values into the finished brief before the agent spawns."
+    },
+    {
+      "name": "idle-dedupe",
+      "source": {
+        "source": "github",
+        "repo": "davethedev3/idle-dedupe"
+      },
+      "description": "Shortens a subagent's idle_notification when that agent already delivered its report by SendMessage or an earlier idle result."
+    }
+  ]
+}
